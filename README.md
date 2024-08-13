@@ -1,11 +1,18 @@
-MQTT-MongoDB Project
-=====================
+# MQTT-RabbitMQ-MongoDB Integration Project
 
-This project demonstrates the integration of MQTT messaging with RabbitMQ and MongoDB for storing and retrieving IoT data.
+## Overview
+This project demonstrates a client-server architecture where MQTT messages are published via RabbitMQ, processed by a server, and stored in MongoDB. Additionally, a Flask API provides an endpoint to retrieve counts of different status values within a specified time range.
 
-Setup
------
+## Setup
 
-1. Install RabbitMQ and MongoDB on your local machine.
-2. Create a new virtual environment and install the required packages using `pip install -r requirements.txt`.
-3. Run the client script using `python
+### Prerequisites
+- Python 3.x
+- RabbitMQ
+- MongoDB
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
